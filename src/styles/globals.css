@@ -16,9 +16,9 @@ body {
   font-family: "Lato", sans-serif;
 }
 ul {
-  list-style: none;
-  margin-bottom: 0;
-  padding-left: 0;
+  list-style: none !important;
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
 }
 
 a {
