@@ -31,7 +31,7 @@ h4,
 h5,
 h6,
 p {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 .home-title h2 {
   font-size: 32px;
