@@ -44,11 +44,11 @@ const ProductList = ({ product }) => {
         </div>
         <div className="product-title">
           <h2>
-            <a href="/shop">
+            <Link href="/shop">
               {product.name.length > 40
                 ? `${product.name.slice(0, 40)}...`
                 : product.name}
-            </a>
+            </Link>
           </h2>
         </div>
         <div className="product-star">
